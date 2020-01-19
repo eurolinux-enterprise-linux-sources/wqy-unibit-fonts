@@ -2,7 +2,7 @@
 
 Name:           %{fontname}-fonts
 Version:        1.1.0
-Release:        12%{?dist}
+Release:        13%{?dist}
 Summary:        WenQuanYi Unibit Bitmap Font
 
 Group:          User Interface/X
@@ -54,6 +54,9 @@ install -m 0755 -d %{buildroot}%{_fontconfig_templatedir} \
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.0-13
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.1.0-12
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
